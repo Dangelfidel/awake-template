@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Universo SAP',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  tagline: 'Un Blog para profesionales de SAP',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
