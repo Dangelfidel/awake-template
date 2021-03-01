@@ -34,6 +34,7 @@ Awake comes with Font Awesome 5 support out of the box, so you have a wealth of 
 ```
  icons: ['faTimes', 'faSearch', 'faEnvelope', 'faUser', 'faBriefcase']
 ```
+...snip... 
 <a name="usage"/>
 ## Lazy Loading Like Crazy
 
