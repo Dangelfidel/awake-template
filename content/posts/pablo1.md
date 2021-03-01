@@ -7,12 +7,17 @@ author: Pablo
 date: 2021-02-27T16:01:00.433Z
 featureImage: /uploads/gaelle-marcel-9dzy0mo98xu-unsplash.jpg
 ---
-**Índice**   
+**Índice**
+
 1. [Primer apartado](#id1)
 2. [Segundo apartado](#id2)
-## Primer apartado<a name="id1"></a>
+
+## Primer apartado
+
 Texto del primer apartado
-## Segundo apartado<a name="id2"></a>
+
+## Segundo apartado
+
 Texto del segundo apartado
 
 # ¿Qué es el trabajo en curso (WIP)?
@@ -41,4 +46,4 @@ Para la entrega parcial de la orden de producción, todas las desviaciones de ma
 
 Si no se entrega ningún producto en el período, las desviaciones no se pueden implosionar y no se asignan en el material ledger. En este escenario, las diferencias permanecen en las cuentas de diferencias de precio de material y en los centros de coste de las clases de actividad. Por lo tanto, no existe una absorción de diferencias completa.
 
-<!--\\\\[if !supportLists]-->⁻      <!--\\\\[endif]-->La cuenta WIP se valora según los precios estándar de los materiales y actividades consumidos.
+<!--\\\\\\[if !supportLists]-->⁻      <!--\\\\\\[endif]-->La cuenta WIP se valora según los precios estándar de los materiales y actividades consumidos.
