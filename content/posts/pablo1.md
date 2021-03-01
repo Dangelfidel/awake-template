@@ -2,7 +2,7 @@
 title: Revalorización del WIP Real S/4HANA
 subtitle: Controlling
 category:
-  - Third Party Integrations
+  - CO-PC
 author: Pablo
 date: 2021-02-27T16:01:00.433Z
 featureImage: /uploads/gaelle-marcel-9dzy0mo98xu-unsplash.jpg
