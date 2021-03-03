@@ -48,23 +48,4 @@ Hey there teestub
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## [Fourth Example](http://www.fourthexample.com)
-
-
-
