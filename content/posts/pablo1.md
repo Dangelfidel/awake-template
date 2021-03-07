@@ -7,7 +7,6 @@ author: Pablo
 date: 2021-02-27T16:01:00.433Z
 featureImage: /uploads/gaelle-marcel-9dzy0mo98xu-unsplash.jpg
 ---
-
 1. [Test link 1](#usage)
 
 # Seccion principal
@@ -16,7 +15,7 @@ featureImage: /uploads/gaelle-marcel-9dzy0mo98xu-unsplash.jpg
 
 Si no estas familiarizado con el concepto de trabajo en curso, el WIP son los costes de materiales y actividades consumidos durante el proceso de fabricación, además de aquellos costes imputados en una orden de fabricación, pero sin haber una entrega o alta en stock del producto terminado al final del periodo.
 
-_Representan aquellos costes de producción de las ordenes incompletas al final del periodo._
+*Representan aquellos costes de producción de las ordenes incompletas al final del periodo.*
 
 ## Revalorización del trabajo en curso
 
@@ -37,10 +36,6 @@ Para la entrega parcial de la orden de producción, todas las desviaciones de ma
 
 Si no se entrega ningún producto en el período, las desviaciones no se pueden implosionar y no se asignan en el material ledger. En este escenario, las diferencias permanecen en las cuentas de diferencias de precio de material y en los centros de coste de las clases de actividad. Por lo tanto, no existe una absorción de diferencias completa.
 
-| Positivo      | Negativo      |
-| ------------- | ------------- |
-| col 3 is      | right-aligned |
-| col 2 is      | centered      |
-| zebra stripes | are neat      |
 
-<!--\\\\\\\[if !supportLists]-->⁻      <!--\\\\\\\[endif]-->La cuenta WIP se valora según los precios estándar de los materiales y actividades consumidos.
+
+![](/uploads/oybc.png)
