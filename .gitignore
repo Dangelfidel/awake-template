@@ -90,7 +90,3 @@ sw.*
 #Awake CMS
 static/api
 static/admin
-
-# History plugin for VSx
-
-.history/*

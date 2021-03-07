@@ -60,7 +60,6 @@ export default {
     }
   },
   fetch({ store, params }) {
-    debugger
     setPageData(store, { resource: 'post', slug: params.singlePost })
   }
 }

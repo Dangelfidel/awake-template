@@ -7,21 +7,16 @@ author: Daniel Kelly
 date: 2019-08-02T04:27:56.800Z
 featureImage: /uploads/marc-olivier-jodoin-nqoinj-ttqm-unsplash.jpg
 ---
+- [Heading](#heading)
+  * [Sub-heading](#sub-heading)
+    + [Sub-sub-heading](#sub-sub-heading)
+- [Heading](#heading-1)
+  * [Sub-heading](#sub-heading-1)
+    + [Sub-sub-heading](#sub-sub-heading-1)
+- [Heading](#heading-2)
+  * [Sub-heading](#sub-heading-2)
+    + [Sub-sub-heading](#sub-sub-heading-2)
 
-Table of Contents
-
-1. [Example](#example)
-2. [Example2](#example2)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-examplehttpwwwfourthexamplecom)
-
-## Example
-
-## Example2
-
-## Third Example
-
-## [Fourth Example](http://www.fourthexample.com)
 
 # Heading levels
 
@@ -45,15 +40,8 @@ This is an h3 heading
 
 This is an h1 heading
 
-### Example2
+### Sub-heading
 
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
 This is an h2 heading
 
 #### Sub-sub-heading
@@ -71,9 +59,3 @@ This is an h2 heading
 #### Sub-sub-heading
 
 This is an h3 heading
-
-| Tables   |      Are      |   Cool |
-| -------- | :-----------: | -----: |
-| col 1 is | left-aligned  | \$1600 |
-| col 2 is |   centered    |   \$12 |
-| col 3 is | right-aligned |    \$1 |
