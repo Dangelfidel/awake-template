@@ -3,7 +3,7 @@
     <site-nav />
     <nuxt />
     <news-letter-slide-out v-if="$siteConfig.newsletter.on" />
-    <site-f$ooter></site-footer>
+    <site-footer></site-footer>
   </div>
 </template>
 
