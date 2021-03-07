@@ -38,4 +38,4 @@ Si no se entrega ningún producto en el período, las desviaciones no se pueden 
 
 
 
-![](/uploads/oybc.png)
+<center>![](/uploads/oybc.png)<center>
