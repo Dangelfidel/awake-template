@@ -17,18 +17,16 @@ export default {
     content() {
       const md = new MarkdownIt({
         linkify: true,
-        typographer: true,
-        html: true
+        typographer: true
       })
         .use(require('markdown-it-deflist'))
         .use(require('markdown-it-sub'))
         .use(require('markdown-it-sup'))
         .use(require('markdown-it-footnote'))
       let html = md.render(this.markdown)
-
       html = this.useResponsiveImages(html)
       html = this.wrapTable(html)
-      html = html.replace(/<table>/g, '<table class="table is-striped">')
+      html = html.replace(/<table>/, '<table class="table is-striped">')
 
       return `<div class="content">${html}</div>`
     }
@@ -69,7 +67,7 @@ export default {
     },
     wrapTable(html) {
       html = html.replace(/<table/g, `<div class="table-wrapper"><table`)
-      html = html.replace(/<\/table>/g, `</table></div>"`)
+      html = html.replace(/<\/table>/g, `</table></div>`)
       return html
     }
   }
