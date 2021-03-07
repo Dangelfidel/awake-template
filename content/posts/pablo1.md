@@ -8,7 +8,7 @@ date: 2021-02-27T16:01:00.433Z
 featureImage: /uploads/gaelle-marcel-9dzy0mo98xu-unsplash.jpg
 ---
 
-1. [Seccion 1](#e)
+1. [Test link 1](#usage)
 
 # Seccion principal
 
@@ -23,11 +23,10 @@ _Representan aquellos costes de producción de las ordenes incompletas al final 
 Mediante la función de revalorización del WIP podrás distribuir las diferencias calculadas en la ejecución del coste real del material ledger a los productos entregados en el almacén y al trabajo en curso (WIP) en proporción a las cantidades. Al activar la revalorización del trabajo en curso las diferencias pertenecientes al WIP serán valoradas a precios reales.
 
 Se puede determinar el WIP de dos maneras:
-<a href="#e"/>
 1.         Wip a coste real.
 
 La diferencia entre el coste real cargado en una orden (Consumo) y el coste real abonado en la orden (Alta o Entrada)
-
+<a name="usage"></a>
 2.         Wip a coste teórico.
 
 La valoración de la cantidad real confirmada hasta la fecha para cada notificación, menos el rechazo relevante.
@@ -37,5 +36,11 @@ Si NO hay una revaluación WIP pueden producirse los siguientes problemas reales
 Para la entrega parcial de la orden de producción, todas las desviaciones de materiales y clases de actividad se transfieren al nivel superior sólo a la cantidad entregada parcialmente. Esto puede provocar una distorsión del coste real del producto.
 
 Si no se entrega ningún producto en el período, las desviaciones no se pueden implosionar y no se asignan en el material ledger. En este escenario, las diferencias permanecen en las cuentas de diferencias de precio de material y en los centros de coste de las clases de actividad. Por lo tanto, no existe una absorción de diferencias completa.
+
+| Positivo      | Negativo      |
+| ------------- | ------------- |
+| col 3 is      | right-aligned |
+| col 2 is      | centered      |
+| zebra stripes | are neat      |
 
 <!--\\\\\\\[if !supportLists]-->⁻      <!--\\\\\\\[endif]-->La cuenta WIP se valora según los precios estándar de los materiales y actividades consumidos.
