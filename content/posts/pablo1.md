@@ -7,22 +7,24 @@ author: Pablo
 date: 2021-02-27T16:01:00.433Z
 featureImage: /uploads/gaelle-marcel-9dzy0mo98xu-unsplash.jpg
 ---
+
 1. [Seccion 1](#Seccion%20principal)
+
 # Seccion principal
-
-
 
 # ¿Qué es el trabajo en curso (WIP)?
 
-Si no estas familiarizado con el concepto de trabajo en curso, el WIP son los costes de materiales y actividades consumidos durante el proceso de fabricación, además de aquellos costes imputados en una orden de fabricación, pero sin haber una entrega o alta en stock del producto terminado al final del periodo. 
+Si no estas familiarizado con el concepto de trabajo en curso, el WIP son los costes de materiales y actividades consumidos durante el proceso de fabricación, además de aquellos costes imputados en una orden de fabricación, pero sin haber una entrega o alta en stock del producto terminado al final del periodo.
 
-*Representan aquellos costes de producción de las ordenes incompletas al final del periodo.*
+_Representan aquellos costes de producción de las ordenes incompletas al final del periodo._
 
 ## Revalorización del trabajo en curso
 
 Mediante la función de revalorización del WIP podrás distribuir las diferencias calculadas en la ejecución del coste real del material ledger a los productos entregados en el almacén y al trabajo en curso (WIP) en proporción a las cantidades. Al activar la revalorización del trabajo en curso las diferencias pertenecientes al WIP serán valoradas a precios reales.
 
 Se puede determinar el WIP de dos maneras:
+
+<h1>Daniel</h1>
 
 1.         Wip a coste real.
 
