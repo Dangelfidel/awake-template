@@ -1,5 +1,12 @@
 <template>
-  <div class="logo-wrapper"></div>
+  <div
+    :class="{
+      'logo-inner': true,
+      blink: blinking
+    }"
+  >
+    <img style="max-height: 3rem" :src="`/logo-frames/2.png `" />
+  </div>
 </template>
 <script>
 export default {
@@ -37,7 +44,8 @@ export default {
       display: block;
       height: 40px;
       margin: 5px;
-      max-height: initial;
+      max-height: 3.5rem;
+      min-height: 3.5rem;
     }
     &.blink {
       animation: logoBlink 0.2s steps(8, end) alternate;

@@ -1,13 +1,9 @@
 <template>
-  <div
-    :class="
-      `site-layout-width-${$siteConfig.layout.width} posts-theme-${$siteConfig.posts.theme}`
-    "
-  >
+  <div>
     <site-nav />
     <nuxt />
     <news-letter-slide-out v-if="$siteConfig.newsletter.on" />
-    <site-footer></site-footer>
+    <site-f$ooter></site-footer>
   </div>
 </template>
 

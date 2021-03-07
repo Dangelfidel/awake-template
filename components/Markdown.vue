@@ -17,7 +17,8 @@ export default {
     content() {
       const md = new MarkdownIt({
         linkify: true,
-        typographer: true
+        typographer: true,
+        html: true
       })
         .use(require('markdown-it-deflist'))
         .use(require('markdown-it-sub'))
