@@ -8,7 +8,7 @@ date: 2021-02-27T16:01:00.433Z
 featureImage: /uploads/gaelle-marcel-9dzy0mo98xu-unsplash.jpg
 ---
 
-1. [Seccion 1](#seccionprincipal)
+1. [Seccion 1](#e)
 
 # Seccion principal
 
@@ -23,7 +23,7 @@ _Representan aquellos costes de producción de las ordenes incompletas al final 
 Mediante la función de revalorización del WIP podrás distribuir las diferencias calculadas en la ejecución del coste real del material ledger a los productos entregados en el almacén y al trabajo en curso (WIP) en proporción a las cantidades. Al activar la revalorización del trabajo en curso las diferencias pertenecientes al WIP serán valoradas a precios reales.
 
 Se puede determinar el WIP de dos maneras:
-<a href="#seccionprincipal"></a>
+<a href="#e"/>
 1.         Wip a coste real.
 
 La diferencia entre el coste real cargado en una orden (Consumo) y el coste real abonado en la orden (Alta o Entrada)
