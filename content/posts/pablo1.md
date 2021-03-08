@@ -7,9 +7,7 @@ author: Pablo
 date: 2021-02-27T16:01:00.433Z
 featureImage: /uploads/gaelle-marcel-9dzy0mo98xu-unsplash.jpg
 ---
-1. [Test link 1](#usage)
 
-# Seccion principal
 
 # ¿Qué es el trabajo en curso (WIP)?
 
@@ -25,7 +23,7 @@ Se puede determinar el WIP de dos maneras:
 1.         Wip a coste real.
 
 La diferencia entre el coste real cargado en una orden (Consumo) y el coste real abonado en la orden (Alta o Entrada)
-<a name="usage"></a>
+
 2.         Wip a coste teórico.
 
 La valoración de la cantidad real confirmada hasta la fecha para cada notificación, menos el rechazo relevante.
@@ -39,3 +37,7 @@ Si no se entrega ningún producto en el período, las desviaciones no se pueden 
 <center>!\[](/uploads/oybc.png)<center>
 
 ![](/uploads/imagen1.png)
+
+![](/uploads/imagen2.png)
+
+![](/uploads/imagen3.png)
