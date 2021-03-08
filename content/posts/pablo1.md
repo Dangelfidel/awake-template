@@ -36,8 +36,6 @@ Para la entrega parcial de la orden de producción, todas las desviaciones de ma
 
 Si no se entrega ningún producto en el período, las desviaciones no se pueden implosionar y no se asignan en el material ledger. En este escenario, las diferencias permanecen en las cuentas de diferencias de precio de material y en los centros de coste de las clases de actividad. Por lo tanto, no existe una absorción de diferencias completa.
 
-<center>![](/uploads/oybc.png)<center>
+<center>!\[](/uploads/oybc.png)<center>
 
-![](/uploads/inventario.png)
-
-![](/uploads/inventario.png)
+![](/uploads/imagen1.png)
