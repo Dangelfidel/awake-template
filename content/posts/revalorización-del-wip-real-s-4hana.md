@@ -66,12 +66,13 @@ OBYC: En ella están las operaciones y sus descripciones. Cada línea está rela
  
 
 Las siguientes claves de operación son necesarias para la revaluación del WIP a costes reales.
-Las operaciones relacionadas con las contabilizaciones del cierre del material ledger son WPM y WPA. Las operaciones PRM y PRA están relacionadas con la contabilización de anulación cuando se concluyen las órdenes y el sistema anula las contabilizaciones WIP anteriores
+Las operaciones relacionadas con las contabilizaciones del cierre del material ledger son WPM y WPA. Las operaciones PRM y PRA están relacionadas con la contabilización de anulación cuando se concluyen las órdenes y el sistema anula las contabilizaciones WIP anteriores.
 
 
 
 
-3.1.1.	WIP por diferencias de precio: Material (WPM)
+
+#### WIP por diferencias de precio: Material (WPM)
 
 WPM es la clave de operación utilizada para contabilizar el material que se consume para un producto no terminado en la cuenta de balance WIP.
  
@@ -80,7 +81,11 @@ En este caso se utiliza la cuenta de balance (Productos en curso ML)
 
 
 
-3.1.2.	WIP por diferencias de precio: Clase de actividad (WPA)
+
+
+#### WIP por diferencias de precio: Clase de actividad (WPA)
+
+
 
 Esta clave de operación debe asignarse a una cuenta de revalorización WIP para contabilizar el consumo de clases de actividad para la fabricación no terminada. Se utilizará cuando hay una revaloración de las tarifas.
 
@@ -92,20 +97,26 @@ En este caso se utiliza la misma cuenta (52541100) para contabilizar los materia
 
 
 
-3.1.3.	Diferencias de precio del WIP anulación de los materiales (PRM)
+
+
+#### Diferencias de precio del WIP anulación de los materiales (PRM)
 
 Cuando se complete una orden que estaba previamente en WIP, los valores del WIP deben anularse. La clave de operación PRM debe asignarse a una cuenta para anular el trabajo en curso a coste real.
 
  
 Usará la misma cuenta que en WPM para revertir los valores del WIP. Se utiliza la misma cuenta para simplificar movimientos de balance de entradas y salidas del WIP a valores reales en la misma cuenta.
 
-3.1.4.	Diferencias de precio del WIP anulación de las clases de actividad (PRA)
+
+
+#### Diferencias de precio del WIP anulación de las clases de actividad (PRA)
 
 La misma forma que en PRM, se debe configurar la clave de operación PRA para que asigne una cuenta cuando anule el WIP para clases de actividad.
 
  
 
 Usará la misma cuenta que en WPA para revertir los valores del WIP. Se utiliza la misma cuenta para simplificar movimientos de balance de consumos actividades del WIP a valores reales en la misma cuenta.
+
+
 
 
 
