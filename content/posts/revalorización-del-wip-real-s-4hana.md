@@ -123,14 +123,19 @@ Usará la misma cuenta que en WPA para revertir los valores del WIP. Se utiliza 
 
 
 
-3.2.	Activación revaluación WIP
+### Activación revaluación WIP
 
  
 
 La revaluación WIP se configura mediante la transacción OMXW
 La activación de la funcionalidad WIP a costes reales es por centro. Si se deseas utilizar la revaluación WIP a partir de un periodo, tendrás que activar esta funcionalidad antes de que comience el periodo. 
 Esta sería la única configuración necesaria en relación con la revaluación del WIP en términos del Material Ledger, también deberías verificar que la configuración de las cuentas sea correcta.
+
+
 El WIP tiene que estar activado para que se revalorice a precio real.
+
+
+
 
  
 
@@ -139,9 +144,11 @@ El WIP tiene que estar activado para que se revalorice a precio real.
 
 
 
-4.	Escenario del proceso de trabajo en curso (WIP)
+## Escenario del proceso de trabajo en curso (WIP)
 
-4.1.	Pasos de creación y progreso de orden de fabricación
+### Pasos de creación y progreso de orden de fabricación
+
+
 
 Lo más fácil para entiendas y comprendas como actúa el WIP y su impacto, es mediante un ejemplo de revaluación del WIP a través de una orden de fabricación.
 El escenario estará comprendido en los periodos 12/2020 y 01/2021. Lo primero se partirá de una orden de fabricación, con un producto terminado planificado de 100 piezas y un componente en este caso semielaborado de 100 piezas planificadas.
@@ -158,7 +165,11 @@ En el análisis de costes de la orden se observa cómo hay un consumo del produc
 
 Al final del periodo se realizarán las tareas del proceso de cierre de controlling, los pasos durante el proceso de cierre, se verificará los documentos del material ledger para entender como se generan las diferencias de precio para la revaluación del WIP.
 
-4.2.	Cálculo del WIP
+
+
+### Cálculo del WIP
+
+
 
 Un inciso importante a tener en cuenta, la definición de WIP real en las ordenes de fabricación a costes reales es simplemente la determinación de la diferencia entre los cargos por el consumo de materiales, imputaciones de actividad internas y externas, recargos de gastos generales y los abonos reales de las entradas de mercancías en stock, aunque este método teniendo activo la determinación de WIP real, no representa los costes reales porque el material y las clases de actividad todavía se valoran a precios estándar. Las diferencias a costes real ocurrirán en el momento que se ejecute el cockpit del material ledger.
 
@@ -177,7 +188,9 @@ Formula del WIP: Consumo real – Consumo teórico.
 El Layer WIP es un nuevo concepto con la revaloración WIP, cada columna de período WIP se denomina Layer WIP. La columna WIP 012 representa los valores en WIP para el periodo 12 
 La columna Delta 012 muestra las modificaciones del layer WIP en comparación con el periodo anterior. En este caso la orden de fabricación no tiene WIP en el periodo anterior WIP 011 por lo que la columna delta es igual a la columna WIP
 
-4.3.	Análisis de precios de material (ckm3n) y actividades (ckm3a)
+
+
+### Análisis de precios de material (ckm3n) y actividades (ckm3a)
 
 Con la funcionalidad de revaluación WIP activa, después de la determinación del WIP, puedes observar en la CKM3N/CKM3A un nuevo tipo de proceso llamado Fabricación WIP
 Se puede observar que para la semielaborado tiene una parte de 80 PI para la orden 1001640, la cual se abona a nivel de fabricación y se genera una carpeta de fabricación WIP cargándose en ella 80 PI, ya que esa parte proporcional pertenece al WIP. 
@@ -196,7 +209,7 @@ Lo mismo ocurrirá para el resto de las actividades.
  
 
 
-4.4.	Liquidación ordenes de producción
+### Liquidación ordenes de producción
 
 Uno de los siguientes pasos del proceso de cierre de controlling será la liquidación de las ordenes de producción, el sistema contabiliza en finanzas el trabajo en curso a precio estándar calculado en el paso anterior, generando dos documentos FI y CO.
 
@@ -206,7 +219,7 @@ Se muestra el documento contable que transfiere el valor WIP de PYG (54200000) a
 
 
  
-4.5.	Ejecución Cockpit del Material Ledger (Cálculo del coste real).
+### Ejecución Cockpit del Material Ledger (Cálculo del coste real).
 
 Tras realizar la liquidación de las ordenes el siguiente paso sería la ejecución del Cockpit del Material Ledger
 
@@ -238,16 +251,20 @@ Cierre contable de materiales
 
  
 
-•	WPM coste real del material
+* WPM coste real del material
 La posición 29 muestra la diferencia de precios cargada en la cuenta del WIP
 (52541200) a valor real con un valor de 32$.
 
-•	PRY diferencias de precio
+
+
+* PRY diferencias de precio
 Las posiciones 26, 27 y 30 del documento contable son las diferencias de precio
 recibidas por la semielaborado, que se trasladarán al inventario (40
 $) y se transferirán a otros niveles (8$ a producto terminado y 32$ a la
 cuenta WIP).
-•	BSX Inventario
+
+
+* BSX Inventario
 La posición 9 muestra la diferencia de precio cargada en la cuenta de inventario
 (13100000) con un valor de 40$
  
@@ -256,12 +273,14 @@ Cierre contable de Actividades
 2021-liq
  
 
-5.	Escenario de reversión del WIP
+## Escenario de reversión del WIP
 
 Ya se ha visto como actúa el sistema cuando tiene activo el WIP real, por lo que, el siguiente paso es ver como se comportara el sistema ante una reversión del WIP real.
 Por lo tanto, cuando una orden de producción tiene un valor en WIP y las altas de producto se realizan desde una orden, el sistema invierte automáticamente el valor proporcional de la cuenta WIP a la cuenta de PyG. Si se utiliza la revaluación WIP, el sistema necesitara anular el coste real asignado al WIP.
 Los siguientes pasos se mostrará el mismo flujo que se ha visto anteriormente.
-5.1.	Confirmación parcial de la orden de fabricación
+
+
+### Confirmación parcial de la orden de fabricación
 
 Se realizará una entrada de mercancías de 30 PI de las 80 PI restantes del producto terminado de la orden de fabricación anterior.
 Con lo cual la determinación del WIP tiene que anular las 30 Ud. de la cuenta del WIP. Manteniendo pendiente 50 PI en proceso en curso del semielaborado (S-202) y 50 PI del producto terminado por dar de alta en stock.
