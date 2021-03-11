@@ -52,7 +52,7 @@ OBYC: En ella están las operaciones y sus descripciones. Cada línea está rela
 
 <center> 
 
-![](/uploads/about-hero.jpg)
+![](/uploads/imagen1.png)
 
  </center>  
 
@@ -63,11 +63,15 @@ Las operaciones relacionadas con las contabilizaciones del cierre del material l
 
 WPM es la clave de operación utilizada para contabilizar el material que se consume para un producto no terminado en la cuenta de balance WIP.
 
+![](/uploads/imagen2.png)
+
 En este caso se utiliza la cuenta de balance (Productos en curso ML)
 
 #### WIP por diferencias de precio: Clase de actividad (WPA)
 
 Esta clave de operación debe asignarse a una cuenta de revalorización WIP para contabilizar el consumo de clases de actividad para la fabricación no terminada. Se utilizará cuando hay una revaloración de las tarifas.
+
+![](/uploads/wpa.png)
 
 En este caso se utiliza la misma cuenta (52541100) para contabilizar los materiales y los componentes de clase de actividad en la revaluación del WIP. Sin embargo, se puede utilizar cuentas de balance diferentes para contabilizar los valores de la revaloración WIP de componentes de material y clase de actividad.
 
@@ -75,21 +79,29 @@ En este caso se utiliza la misma cuenta (52541100) para contabilizar los materia
 
 Cuando se complete una orden que estaba previamente en WIP, los valores del WIP deben anularse. La clave de operación PRM debe asignarse a una cuenta para anular el trabajo en curso a coste real.
 
+![](/uploads/prm.png)
+
 Usará la misma cuenta que en WPM para revertir los valores del WIP. Se utiliza la misma cuenta para simplificar movimientos de balance de entradas y salidas del WIP a valores reales en la misma cuenta.
 
 #### Diferencias de precio del WIP anulación de las clases de actividad (PRA)
 
 La misma forma que en PRM, se debe configurar la clave de operación PRA para que asigne una cuenta cuando anule el WIP para clases de actividad.
 
+![](/uploads/pra.png)
+
 Usará la misma cuenta que en WPA para revertir los valores del WIP. Se utiliza la misma cuenta para simplificar movimientos de balance de consumos actividades del WIP a valores reales en la misma cuenta.
 
 ### Activación revaluación WIP
+
+![](/uploads/act.png)
 
 La revaluación WIP se configura mediante la transacción OMXW
 La activación de la funcionalidad WIP a costes reales es por centro. Si se deseas utilizar la revaluación WIP a partir de un periodo, tendrás que activar esta funcionalidad antes de que comience el periodo. 
 Esta sería la única configuración necesaria en relación con la revaluación del WIP en términos del Material Ledger, también deberías verificar que la configuración de las cuentas sea correcta.
 
 El WIP tiene que estar activado para que se revalorice a precio real.
+
+![](/uploads/centr.png)
 
 ## Escenario del proceso de trabajo en curso (WIP)
 
