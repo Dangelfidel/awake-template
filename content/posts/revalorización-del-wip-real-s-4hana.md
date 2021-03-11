@@ -110,7 +110,11 @@ El WIP tiene que estar activado para que se revalorice a precio real.
 Lo más fácil para entiendas y comprendas como actúa el WIP y su impacto, es mediante un ejemplo de revaluación del WIP a través de una orden de fabricación.
 El escenario estará comprendido en los periodos 12/2020 y 01/2021. Lo primero se partirá de una orden de fabricación, con un producto terminado planificado de 100 piezas y un componente en este caso semielaborado de 100 piezas planificadas.
 
+![](/uploads/j1.png)
+
 Durante el periodo 12/2020 habrá un consumo de la semielaborado y un alta o entrada de mercancía en stock del producto terminado.
+
+![](/uploads/j2.png)
 
 \*Se consumen el total planificado del semiterminado
 
