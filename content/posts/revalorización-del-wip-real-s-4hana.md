@@ -7,10 +7,6 @@ author: Pablo
 date: 2021-03-10T20:34:06.978Z
 featureImage: /uploads/gaelle-marcel-9dzy0mo98xu-unsplash.jpg
 ---
-
-
-
-
 # ¿Qué es el trabajo en curso (WIP)?
 
 Si no estas familiarizado con el concepto de trabajo en curso, el WIP son los costes de materiales y actividades consumidos durante el proceso de fabricación, además de aquellos costes imputados en una orden de fabricación, pero sin haber una entrega o alta en stock del producto terminado al final del periodo.
@@ -56,7 +52,7 @@ OBYC: En ella están las operaciones y sus descripciones. Cada línea está rela
 
 <center>
 
-![](/uploads/obyc.png)
+![](/uploads/imagen1.png)
 
 </center>
 
