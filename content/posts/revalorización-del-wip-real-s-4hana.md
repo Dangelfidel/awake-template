@@ -7,6 +7,10 @@ author: Pablo
 date: 2021-03-10T20:34:06.978Z
 featureImage: /uploads/gaelle-marcel-9dzy0mo98xu-unsplash.jpg
 ---
+
+
+
+
 # ¿Qué es el trabajo en curso (WIP)?
 
 Si no estas familiarizado con el concepto de trabajo en curso, el WIP son los costes de materiales y actividades consumidos durante el proceso de fabricación, además de aquellos costes imputados en una orden de fabricación, pero sin haber una entrega o alta en stock del producto terminado al final del periodo.
@@ -50,9 +54,11 @@ Asignaras cuentas de mayor a operaciones comerciales de gestión de materiales (
 
 OBYC: En ella están las operaciones y sus descripciones. Cada línea está relacionada con una clave de operación. Una clave de operación puede definirse como una clase diferente de proceso en MM en el que se asignan cuentas.
 
+<center>
 
-![](/uploads/imagen1.png)
+![](/uploads/obyc.png)
 
+</center>
 
 Las siguientes claves de operación son necesarias para la revaluación del WIP a costes reales.
 Las operaciones relacionadas con las contabilizaciones del cierre del material ledger son WPM y WPA. Las operaciones PRM y PRA están relacionadas con la contabilización de anulación cuando se concluyen las órdenes y el sistema anula las contabilizaciones WIP anteriores.
