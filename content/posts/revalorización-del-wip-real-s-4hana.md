@@ -50,11 +50,19 @@ Asignaras cuentas de mayor a operaciones comerciales de gestión de materiales (
 
 OBYC: En ella están las operaciones y sus descripciones. Cada línea está relacionada con una clave de operación. Una clave de operación puede definirse como una clase diferente de proceso en MM en el que se asignan cuentas.
 
+
+
+
+
 <center>
 
 ![](/uploads/imagen1.png)
 
 </center>
+
+
+
+
 
 Las siguientes claves de operación son necesarias para la revaluación del WIP a costes reales.
 Las operaciones relacionadas con las contabilizaciones del cierre del material ledger son WPM y WPA. Las operaciones PRM y PRA están relacionadas con la contabilización de anulación cuando se concluyen las órdenes y el sistema anula las contabilizaciones WIP anteriores.
