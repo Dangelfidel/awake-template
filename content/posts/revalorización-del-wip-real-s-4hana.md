@@ -48,7 +48,7 @@ Sera necesaria la configuración de la determinación de cuentas de la Gestión 
 
 Asignaras cuentas de mayor a operaciones comerciales de gestión de materiales (MM) utilizando la tx OBYC
 
-OBYC: En ella están las operaciones y sus descripciones. Cada línea está relacionada con una clave de operación. Una clave de operación puede definirse como una clase diferente de proceso en MM en el que se asignan cuentas.
+OBYC: En ella están las operaciones y sus descripciones. Cada línea está relacionada con una clave de operación. Una clave de operación puede definirse como una clase diferente de proceso en MM en el que se asignan cuentas.  
 
 
 
@@ -58,7 +58,7 @@ OBYC: En ella están las operaciones y sus descripciones. Cada línea está rela
 
 ![](/uploads/imagen1.png)
 
-</center>
+</center>  
 
 
 
