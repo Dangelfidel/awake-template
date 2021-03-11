@@ -93,7 +93,7 @@ Usará la misma cuenta que en WPA para revertir los valores del WIP. Se utiliza 
 
 ### Activación revaluación WIP
 
-![](/uploads/act.png)
+![](/uploads/act1.png)
 
 La revaluación WIP se configura mediante la transacción OMXW
 La activación de la funcionalidad WIP a costes reales es por centro. Si se deseas utilizar la revaluación WIP a partir de un periodo, tendrás que activar esta funcionalidad antes de que comience el periodo. 
