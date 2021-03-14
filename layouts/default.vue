@@ -2,8 +2,6 @@
   <div>
     <site-nav />
     <nuxt />
-    <news-letter-slide-out v-if="$siteConfig.newsletter.on" />
-    <site-footer></site-footer>
   </div>
 </template>
 
