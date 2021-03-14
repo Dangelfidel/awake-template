@@ -51,8 +51,8 @@ export default {
   disqus: {
     on: true,
     loadingStrategy: 'lazy', // Options: onload, lazy, button
-    siteShortName: 'https-www-universosap-com',
-
+    siteShortName: 'https-www-universosap-com'
+  },
   // Newsletter Subscribe
   newsletter: {
     on: true,
