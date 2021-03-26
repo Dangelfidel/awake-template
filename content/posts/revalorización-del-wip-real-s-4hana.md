@@ -120,7 +120,9 @@ Durante el periodo 12/2020 habrá un consumo de la semielaborado y un alta o ent
 
 En el análisis de costes de la orden se observa cómo hay un consumo del producto semiterminado y un alta o entrada en stock producto terminado, además habrá un consumo de actividades, se consumirá el total de lo planificado, el consumo de las actividades se abonará en el centro de coste y se cargará en la orden de producción.
 
-Al final del periodo se realizarán las tareas del proceso de cierre de controlling, los pasos durante el proceso de cierre, se verificará los documentos del material ledger para entender como se generan las diferencias de precio para la revaluación del WIP.
+![](/uploads/inf.png)
+
+Al final del periodo se realizarán las tareas del proceso de cierre de controlling, los pasos durante el proceso de cierre, se verificará los documentos del material ledger para entender cómo se generan las diferencias de precio para la revaluación del WIP.
 
 ### Cálculo del WIP
 
@@ -128,27 +130,48 @@ Un inciso importante a tener en cuenta, la definición de WIP real en las ordene
 
 Prosigamos con los pasos del proceso de cierre de controlling, para calcular el trabajo en curso WIP es mediante la transacción KKAX (Individual), calculará el WIP de la orden de fabricación para el periodo en que se realiza el proceso de cierre. 
 
+![](/uploads/33.png)
+
 Se muestra la orden de fabricación 1001640 que tiene producto no terminado, basándose en el cálculo estándar se determina que hay un WIP de 12,32$, coincidirá con el saldo de la orden.
 
 En la parte de la derecha aparece un nuevo botón llamado Documento cantidades WIP cuando la función WIP real está activada.
 
+![](/uploads/34.png)
+
 Mediante la funcionalidad de revaloración WIP, la determinación del WIP crea el documento de cantidad para cada orden que contiene el producto no terminado. Nos muestra la cantidad de materiales y actividades que se consumieron en la orden pero que no generaron una salida de fabricación, simplemente muestra cantidades consumidas que se han identificado como WIP.
+
 Formula del WIP: Consumo real – Consumo teórico.
+
 El Layer WIP es un nuevo concepto con la revaloración WIP, cada columna de período WIP se denomina Layer WIP. La columna WIP 012 representa los valores en WIP para el periodo 12 
 La columna Delta 012 muestra las modificaciones del layer WIP en comparación con el periodo anterior. En este caso la orden de fabricación no tiene WIP en el periodo anterior WIP 011 por lo que la columna delta es igual a la columna WIP
 
 ### Análisis de precios de material (ckm3n) y actividades (ckm3a)
 
 Con la funcionalidad de revaluación WIP activa, después de la determinación del WIP, puedes observar en la CKM3N/CKM3A un nuevo tipo de proceso llamado Fabricación WIP
+
 Se puede observar que para la semielaborado tiene una parte de 80 PI para la orden 1001640, la cual se abona a nivel de fabricación y se genera una carpeta de fabricación WIP cargándose en ella 80 PI, ya que esa parte proporcional pertenece al WIP. 
+
+![](/uploads/36.png)
 
 Se puede observar que para la actividad 1 tiene una parte de 0.134 H para la orden 1001640, la cual se abona a nivel de fabricación y se genera una carpeta de fabricación WIP cargándose en ella 0.134 H, ya que esa parte proporcional pertenece al WIP. 
 
+![](/uploads/35.png)
+
 Lo mismo ocurrirá para el resto de las actividades.
+
+![](/uploads/37.png)
+
+
 
 ### Liquidación ordenes de producción
 
 Uno de los siguientes pasos del proceso de cierre de controlling será la liquidación de las ordenes de producción, el sistema contabiliza en finanzas el trabajo en curso a precio estándar calculado en el paso anterior, generando dos documentos FI y CO.
+
+
+
+![](/uploads/38.png)
+
+
 
 Se muestra el documento contable que transfiere el valor WIP de PYG (54200000) a una cuenta de balance de productos en curso (13200000). El importe se basa en precios estándar
 
@@ -156,9 +179,19 @@ Se muestra el documento contable que transfiere el valor WIP de PYG (54200000) a
 
 Tras realizar la liquidación de las ordenes el siguiente paso sería la ejecución del Cockpit del Material Ledger
 
+
+
+![](/uploads/39.png)
+
+
+
 Para el producto semielaborado de la orden 1001640 el sistema realiza la revaluación WIP generando una diferencia de precio de 32$ para las 80 PI de WIP
 
 Una vez lanzada la ejecución de la tarifa real se calculará el precio real y sus diferencias revalorizando las actividades en las órdenes y saldando los centros de coste productivos al lanzar el cockpit del material ledger.
+
+
+
+
 
 Para la actividad 1 y centro de coste 17101301 de la orden 1001640 el sistema realiza la revaluación WIP generando una diferencia de precio de 4,5$ para las 0,134 H de WIP
 
