@@ -10,7 +10,7 @@ import { routeMap, otherRoutes } from './config/generate'
 export default {
   mode: 'universal',
   /*
-   ** Customize the progress-bar color
+   ** Customize the progress-bar colo
    */
   loading: { color: '#fff' },
 
